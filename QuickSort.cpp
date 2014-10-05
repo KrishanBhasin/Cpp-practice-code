@@ -16,7 +16,6 @@ int main()
 	}
 
 	quickSortAction(testarray);
-	int i = 0;
 
 	for (std::vector<int>::iterator it = testarray.begin(); it != testarray.end(); ++it)				//try switching to the vector counter objects, not my own i
 	{
