@@ -9,8 +9,6 @@ void quickSortAction(vector<int>& array_in);
 int main()
 {
 	vector<int> testarray;
-	//testarray.resize(10,3);
-	//testarray.assign(1,1);
 
 	for (int i = 0; i < 100; i++)	//make a 100 size array with random ints
 	{
